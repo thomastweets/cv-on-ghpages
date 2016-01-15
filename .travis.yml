@@ -1,0 +1,18 @@
+sudo: required
+language: python
+services:
+  - docker
+branches:
+  only:
+    - master
+before_install:
+  - sudo docker build -t texlive docker
+install:
+  - pip install ghp-import
+script:
+  - make clean
+  - make build
+  - make github
+env:
+  global:
+    - secure: "yoursecret"
