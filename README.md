@@ -13,7 +13,7 @@ As Travis CI needs to be able to push to your GitHub repository (specifically th
 # on OSX using the default Ruby installation
 sudo gem install travis
 ```
-Now we create a personal access token on GitHub to use with Travis CI. Follow [these instructions](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) to do so. I named mine `TravisCI blog.thomasemmerling.de` and kept the standard scope settings. Copy the token when you created it as you will not be able to see it again after you close the page.
+Now we create a personal access token on GitHub to use with Travis CI. Follow [these instructions](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) to do so. I named mine `TravisCI cv-on-ghpages` and kept the standard scope settings. Copy the token when you created it as you will not be able to see it again after you close the page.
 Encrypt the token with the `travis` command line tool:
 ```bash
 # where 'your_token' is the token from the last step
