@@ -1,7 +1,7 @@
 # CV on GitHub Pages that is compiled from LaTeX using TravisCI
 With this repository you can show your CV using Git (obviously), LaTeX (beautiful type-setting, and a good portion of geekness), TravisCI (automatize all the things!), docker (keep build environments versionized), and GitHub pages (why host yourself?). In addition you can use a custom domain to host your CV (_e.g._ a subdomain).
 
-Once setup, everytime you commit a new version of ```cv.tex``` this repository will take care of LaTeX compilation and hosting on GitHub pages.
+Once set up, everytime you commit a new version of ```cv.tex``` this repository will take care of LaTeX compilation into PDF and hosting on GitHub pages.
 
 See also my [blog post](http://blog.thomasemmerling.de/automatic-latex-cv-publishing-on-github-pages-via-travisci.html).
 
