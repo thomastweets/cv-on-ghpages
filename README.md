@@ -1,6 +1,8 @@
 # CV on GitHub Pages that is compiled from LaTeX using TravisCI
 With this repository you can show your CV using Git (obviously), LaTeX (beautiful type-setting, and a good portion of geekness), TravisCI (automatize all the things!), docker (keep build environments versionized), and GitHub pages (why host yourself?). In addition you can use a custom domain to host your CV (_e.g._ a subdomain).
 
+See also my [blog post](http://blog.thomasemmerling.de/automatic-latex-cv-publishing-on-github-pages-via-travisci.html).
+
 ## LaTeX template
 Included is Alessandro Plasmati's [Classicthesis-Styled CV](http://www.latextemplates.com/template/classicthesis-styled-cv) template. You can exchange it for any LaTeX template you like that does not have dependencies that are not met by an updated [TeX Live](http://tug.org/texlive/) installation. Please see also the used [docker image](https://hub.docker.com/r/harshjv/texlive-2015/). However, the filename has to be "cv.tex".
 
