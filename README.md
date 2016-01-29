@@ -3,7 +3,7 @@ With this repository you can show your CV using Git (obviously), LaTeX (beautifu
 
 Once set up, everytime you commit a new version of ```cv.tex``` this repository will take care of LaTeX compilation into PDF and hosting on GitHub pages.
 
-See also my [blog post](http://blog.thomasemmerling.de/automatic-latex-cv-publishing-on-github-pages-via-travisci.html).
+See also my [blog post](http://blog.thomasemmerling.de/automatic-latex-cv-publishing-on-github-pages-via-travisci.html) and an [example cv](http://cv.thomasemmerling.de).
 
 ## LaTeX template
 Included is Alessandro Plasmati's [Classicthesis-Styled CV](http://www.latextemplates.com/template/classicthesis-styled-cv) template. You can exchange it for any LaTeX template you like that does not have dependencies that are not met by an updated [TeX Live](http://tug.org/texlive/) installation. Please see also the used [docker image](https://hub.docker.com/r/harshjv/texlive-2015/). However, the filename has to be "cv.tex".
